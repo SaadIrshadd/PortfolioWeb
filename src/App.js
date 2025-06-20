@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 // import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 // import Project from "./components/Project";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     {/* <Project/> */}
       {/* <Navbar /> */}
        <Hero />
-      <Footer /> 
+      {/* <Footer />  */}
     </>
   );
 }

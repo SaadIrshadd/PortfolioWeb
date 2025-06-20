@@ -27,7 +27,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: black;
-  opacity: 0.49;
+  opacity: 0.35;
   z-index: 1;
 }
 
@@ -57,13 +57,13 @@ nav button {
 }
 
 .hero {
-  height: 82%;
+  height: 85%;
   /* text-align: center; */
   display: flex;
   /* align-items: center; */
   max-width: 70vw;
-  padding-left: 2%;
-  gap: 10px;
+  padding-left: 1%;
+  /* gap: 5px; */
   justify-content:end;
   flex-direction: column;
   color: white;
@@ -73,7 +73,7 @@ nav button {
 
 .hero > :nth-child(1) {
   font-weight: 600;
-  font-size: 50px;
+  font-size: 40px;
 }
 .hero > :nth-child(2) {
   font-weight: 500;
@@ -81,7 +81,7 @@ nav button {
 }
 .hero > :nth-child(3) {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .buttons {
@@ -102,25 +102,53 @@ nav button {
 }
 
 .sec_btn {
-  margin-top: 30px;
-  padding: 10px 20px;
+  margin-top: 15px;
+  padding: 5px 10px;
+  width: 15%;
   font-size: larger;
-  background-color: red;
+  background-color:rgb(248, 229, 229);
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  
+}
+
+.sec_btn2 {
+  width: 13%;
+  margin-top: 15px;
+  padding: 5px 10px;
+  font-size: larger;
+  background-color: rgba(56, 55, 55, 0.877);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  
 }
 
 .sec_btn a{
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.sec_btn2 a{
   color: white;
   text-decoration: none;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 15px;
 }
 
+
 .sec_btn:hover{
-   transition: all 0.2s ease;
-  background-color: #4b0101f1;
+  transition: all 0.2s ease;
+  background-color: rgb(124, 109, 109);
+}
+
+.sec_btn2:hover{
+  transition: all 0.2s ease;
+  background-color: rgb(29, 28, 28);
 }
 
 input {
@@ -210,7 +238,7 @@ input {
   display: flex;
   max-width: 100vw;
   color: white;
-  padding-left: 2%;
+  padding-left: 1%;
   /* justify-content: center;
   align-items: center; */
 }
@@ -218,11 +246,18 @@ input {
 .trending span {
   position: absolute;
   top: 0;
-  margin-top: 40px;
-  font-size: 60px;
-  font-weight: 600;
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 500;
 }
 
+.projects{
+  padding-left:1%;
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+
+}
 .container {
   /* padding-left: 10%; */
   display: flex;
@@ -239,8 +274,9 @@ input {
 }
 
 .container img {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
+  border-radius: 20px;
   /* border: 2px solid white; */
   transition: all 0.2s ease-in-out;
 }
