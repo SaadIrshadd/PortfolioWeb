@@ -9,7 +9,8 @@ import Project from "./Project";
 
 const trendingImages = [
   "c1.jpg", "c2.jpg", "c3.jpg", "c4.jpg", "c5.jpg",
-  "c6.jpg", "c7.jpg", "c8.jpg", "c9.jpg"
+  "c6.jpg", "c7.jpg", "c8.jpg", "c9.jpg","c10.jpg",
+  "c11.jpg","c12.jpg","c13.jpg"
 ];
 
 function Hero() {
@@ -20,10 +21,10 @@ function Hero() {
         <div className="box"></div>
         <Navbar/>
         <div className="hero">
-          <span> Saad Irshad - MERN Stack Developer </span>
+          <span> MERN Stack Developer </span>
           <span>  </span>
           <span>
-            I'm a full stack developer with a strong foundation in the MERN stack — React, Node.js, Express, and MongoDB. I enjoy building web apps that are not only functional but also polished in terms of UI and performance. With every project, I aim to write better code, follow best practices, and keep improving my problem-solving skills. Always learning, always building.
+            I’m a full stack MERN developer who builds clean, functional web apps using tools like React, Node.js, Express, and MongoDB. I enjoy solving problems, refining code, and building projects that feel good to use. I’m always exploring better ways to code and pushing myself forward with every project.  
           </span>
           <div className="button">
             <button className="sec_btn"><svg xmlns="http://www.w3.org/2000/svg" fill="black" role="img" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M5 2.69127C5 1.93067 5.81547 1.44851 6.48192 1.81506L23.4069 11.1238C24.0977 11.5037 24.0977 12.4963 23.4069 12.8762L6.48192 22.1849C5.81546 22.5515 5 22.0693 5 21.3087V2.69127Z" fill="black"></path></svg><a href="SaadIrshadResume.pdf" target="_blank"> Resume</a></button>
@@ -33,10 +34,10 @@ function Hero() {
       </div>
 
       <div className="line"></div>
-      
+                
       <div className="trending">
         <span>MY SKILLS</span>
-        <div className="container">
+        <div className="container1">
           {trendingImages.map((img, idx) => (
             <img key={idx} src={require(`../assets/${img}`)} alt={`Trending ${idx}`} />
           ))}

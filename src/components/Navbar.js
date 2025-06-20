@@ -1,10 +1,11 @@
 import React from "react";
 import logo from "../assets/logo.svg";
+import logo1 from "../assets/logo2.png";
 
 function Navbar() {
   return (
     <nav>
-      <img width="140" src={logo} alt="Logo" />
+      <img src={logo1} alt="Logo" />
       <div>
         <button className="btn">Sign In</button>
       </div>
