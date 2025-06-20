@@ -6,9 +6,7 @@ function Navbar() {
   return (
     <nav>
       <img src={logo1} alt="Logo" />
-      <div>
-        <button className="btn">Sign In</button>
-      </div>
+      
     </nav>
   );
 }
