@@ -5,6 +5,7 @@ import video1 from "../assets/video1.m4v";
 import mobileImg from "../assets/mobile-0819.jpg";
 import icon from "../assets/icon.svg";
 import Navbar from "./Navbar";
+import Project from "./Project";
 
 const trendingImages = [
   "c1.jpg", "c2.jpg", "c3.jpg", "c4.jpg", "c5.jpg",
@@ -41,6 +42,9 @@ function Hero() {
 
       <div className="line"></div>
 
+      <Project/>
+
+      <div className="line"></div>
       <section className="content">
         <div>
           <span> Enjoy on your TV </span>
@@ -54,8 +58,8 @@ function Hero() {
         </div>
       </section>
 
-      <div className="line"></div>
 
+      <div className="line"></div>
       <section className="secSection">
         <div className="secImg">
           <img src={mobileImg} alt="Mobile" />
