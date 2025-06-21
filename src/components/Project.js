@@ -20,7 +20,7 @@ export default function Project() {
                 <p style={{ color: 'white' }} className="card-text">
                   A React project that shows live news headlines using NewsAPI. Highlights clear API use, state handling, and well-structured components.
                 </p>
-                <a href="https://github.com/SaadIrshadd/NewsMonkey-React-ClassBased" target="_blank" style={{ color: 'white', textDecoration: 'underline' }}>
+                <a href="https://github.com/SaadIrshadd/NewsMonkey-React-ClassBased" rel="noreferrer" target="_blank" style={{ color: 'white', textDecoration: 'underline' }}>
                   GitHub Repo
                 </a>
               </div>
@@ -39,7 +39,7 @@ export default function Project() {
                 <p style={{ color: 'white' }} className="card-text">
                   A full-stack Library System with login/signup, book issue/return, fine system, and separate panels for users and admins.
                 </p>
-                <a style={{ cursor:`pointer`,color: 'white', textDecoration: 'underline' }}>
+                <a href="https://github.com/SaadIrshadd/LibraryManagementSystem" rel="noreferrer" target="_blank" style={{ color: 'white', textDecoration: 'underline' }}>
                   GitHub Repo
                 </a>
               </div>
@@ -58,7 +58,7 @@ export default function Project() {
                 <p style={{ color: 'white' }} className="card-text">
                   Classic Snake Game with smooth movement, score tracking, and collision detection. A simple yet strong demonstration of game logic.
                 </p>
-                <a href="https://github.com/SaadIrshadd/SnakeGame" target="_blank" style={{ color: 'white', textDecoration: 'underline' }}>
+                <a href="https://github.com/SaadIrshadd/SnakeGame" target="_blank" rel="noreferrer" style={{ color: 'white', textDecoration: 'underline' }}>
                   GitHub Repo
                 </a>
               </div>
@@ -77,7 +77,7 @@ export default function Project() {
                 <p style={{ color: 'white' }} className="card-text">
                   A match-3 game clone with swipe actions, animated matches, scoring, and reset system. Demonstrates interactive DOM logic and CSS animation.
                 </p>
-                <a href="https://github.com/SaadIrshadd/CandyCrush" target="_blank" style={{ color: 'white', textDecoration: 'underline' }}>
+                <a href="https://github.com/SaadIrshadd/CandyCrush" target="_blank" rel="noreferrer" style={{ color: 'white', textDecoration: 'underline' }}>
                   GitHub Repo
                 </a>
               </div>

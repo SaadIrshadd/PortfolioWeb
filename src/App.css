@@ -12,6 +12,42 @@ body {
   background-color: black;
 }
 
+.intro{
+  position: fixed;
+  inset: 0;
+  background-color: black;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logo {
+  width: 180px;
+  opacity: 1;
+  transition: transform 0.3s ease;
+}
+
+.logo.animate {
+  animation: zoomFade 3s ease-in-out forwards;
+}
+
+@keyframes zoomFade {
+  0% {
+    transform: scale(0.2);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
 .main {
   position: relative;
   background-image: url("./assets/bg.jpg");
@@ -337,4 +373,14 @@ footer {
   .secSection > div:nth-child(2) :nth-child(1) {
     font-size: 26px;
   }
+}
+
+@media screen and (max-width: 450px) {
+ .secImg video {
+  position: absolute;
+  top: 13%;
+  right: 2%;
+  width: 86%;
+  max-width: 350px;
+} 
 }
